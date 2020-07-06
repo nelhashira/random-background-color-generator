@@ -14,7 +14,7 @@ body {
    font-weight: 500;
    letter-spacing: 0.1em;
    color: #2d3436;
-   background-color: #ffffff;
+   background-color: transparent;
    /* border: 1px solid #2d3436; */
    /* Position */
    position: absolute;
@@ -24,6 +24,8 @@ body {
 }
 .rand-btn {
    outline: none;
+   border-radius: 0.5em;
+   border: 1px solid #2d3436;
    padding: 0.8em 1em;
    font-size: 1em;
    cursor: pointer;
