@@ -1,0 +1,34 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: Montserrat, sans-serif;
+   line-height: 1.5;
+   font-size: 1em;
+   background-color: #ffffff;
+}
+.color {
+   font-size: 3em;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   color: #2d3436;
+   background-color: #ffffff;
+   /* border: 1px solid #2d3436; */
+   /* Position */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.rand-btn {
+   outline: none;
+   padding: 0.8em 1em;
+   font-size: 1em;
+   cursor: pointer;
+   /* Position */
+   position: absolute;
+   top: 1em;
+   right: 1em;
+}
